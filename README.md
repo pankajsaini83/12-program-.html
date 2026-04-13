@@ -5,8 +5,12 @@
     
 </head>
 <style>
+    h1{
+        color:red;
+        }
     body{
          border: 5px solid black;
+        }
   div{
     color:black;
     
