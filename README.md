@@ -1,7 +1,7 @@
 
 <html>
 <head>
-    <title>Student Record</title>
+    <title> Welcome first page</title>
     
 </head>
 <style>
