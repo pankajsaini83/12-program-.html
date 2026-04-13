@@ -43,7 +43,7 @@
     let roll = document.getElementById("roll").value;
       let coursee = document.getElementById("course").value;
     if (name === "" || roll === "") {
-        alert("Please enter your Name");
+        alert("Please enter complete information");
         return;
     }
     let list = document.getElementById("studentList");
