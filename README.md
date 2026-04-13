@@ -13,6 +13,7 @@
 </style>
 <body bgcolor="yellow">
 <div>
+    <marquee><h1> WELCOME COLLEAGE WEBSITE</h1></marquee>
         <h1>Student Attendance</h1>
         Enter Name:<input type="Name" id="name" placeholder="Enter Name">
         <br>
