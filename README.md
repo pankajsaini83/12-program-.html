@@ -9,7 +9,7 @@
         color:red;
         }
     body{
-         border: 5px solid black;
+         border: 8px solid black;
         }
   div{
     color:black;
@@ -17,7 +17,7 @@
   }
   
 </style>
-<body bgcolor="yellow">
+<body bgcolor="aqua">
 <div>
     <marquee><h1> WELCOME COLLEAGE WEBSITE</h1></marquee>
         <h1>Student Attendance</h1>
@@ -25,6 +25,9 @@
         <br>
         <br>
         Enter Roll No:<input type="Number" id="roll" placeholder="Enter Roll No">
+        <br>
+        <br>
+            Enter Your course :<input type="text" id="course" placeholder="Enter Your course">
         <br>
         <br>
         Please Save:<button onclick="saveStudent()">Save</button>
@@ -38,16 +41,20 @@
   function saveStudent() {
     let name = document.getElementById("name").value;
     let roll = document.getElementById("roll").value;
+      let coursee = document.getElementById("course").value;
     if (name === "" || roll === "") {
         alert("Please enter all details");
         return;
     }
     let list = document.getElementById("studentList");
     let li = document.createElement("li");
-    li.innerText = "Name: " + name + " | Roll No: " + roll;
+    li.innerText = "Name: " + name + " | Roll No: " + roll+"| Course:"+coursee;
     list.appendChild(li);
     document.getElementById("name").value = "";
+       document.write("<br>");
     document.getElementById("roll").value = "";
+      document.write("<br>");
+    document.getElementById("coursee").value = " ";
   }
 </script>
 </html>
